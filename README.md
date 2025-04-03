@@ -14,7 +14,7 @@ train_data = ["how", "are", "you", "today"]
 model = unigram.UnigramLM()
 model.train(train_data, alpha=1)
 
-# Calculate log probability of a sequence
+# Calculate log probability of text
 test_data = ["how", "are", "you", "doing"]
 log_prob = model.log_probability(test_data)
 print(f"Log probability: {log_prob}")
@@ -33,7 +33,7 @@ train_data = [
 model = bigram.BigramLM()
 model.train(train_data, alpha=1, beta=1)
 
-# Calculate log probability of a sequence
+# Calculate log probability of text
 test_data = [["*START*", "how", "are", "you", "today", "*STOP*"]]
 log_prob = model.log_probability(test_data)
 print(f"Log probability: {log_prob}")
