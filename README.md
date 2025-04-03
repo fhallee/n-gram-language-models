@@ -1,6 +1,6 @@
 # Unigram and Bigram Language Models
 
-A python implementation of unigram and bigram language models for language processing. This repository includes modular implementations using Laplace smoothing with optional automatic optimization.
+A python implementation of unigram and bigram language models for language processing built from scratch with no external dependencies. Uses Laplace smoothing with optional automatic optimization.
 
 ## Usage
 
